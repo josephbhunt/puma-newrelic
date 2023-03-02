@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "puma/newrelic"
+require "puma/newrelic_spec"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
